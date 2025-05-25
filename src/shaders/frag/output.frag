@@ -96,7 +96,7 @@ vec3 generateNormal(vec3 p) {
         ));
 }
 
-vec3 dropletColor(vec3 p, vec3 normal, vec3 rayDir, vec3 rayOrigin) {
+vec3 dropletColor(vec3 normal, vec3 rayDir) {
     vec3 reflectDir = reflect(rayDir, normal);
 
     float noisePosTime = noise3D(reflectDir * 2.0 + uTime);
@@ -131,7 +131,7 @@ void main() {
     if (dist < EPS) {
         vec3 normal = generateNormal(ray);
 
-        color = dropletColor(ray, normal, rayDirection, origin);
+        color = dropletColor(normal, rayDirection);
         // color = normal; // for debug
     }
 
