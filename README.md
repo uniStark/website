@@ -6,9 +6,9 @@ Demo for the tutorial on how to create interactive, droplet-like metaballs using
 
 ![Interactive, droplet-like metaballs](./public/droplet.png)
 
-[Article on Codrops](https://tympanus.net/codrops/?p=)
+[Article on Codrops](https://tympanus.net/codrops/2025/06/09/how-to-create-interactive-droplet-like-metaballs-with-three-js-and-glsl/)
 
-[Demo](https://tympanus.net/Development/.../)
+[Demo](https://tympanus.net/Tutorials/InteractiveBubbleMetaballs/)
 
 ## Installation
 
